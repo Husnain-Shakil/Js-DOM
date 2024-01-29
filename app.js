@@ -20,6 +20,7 @@ const updateSelectedItem = (item) => {
   selectedDesc.textContent = item.desc;
 };
 
+
 // Function to update the right items
 const updateRightItems = (startIndex) => {
   rightWrap.innerHTML = ""; 
